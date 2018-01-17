@@ -6,17 +6,17 @@ Currently, Liferay bundles are publicly shared with these 2 JVM arguments in the
 
 `-Xmx1024m` is a too low value, while `-XX:MaxPermSize=384m` is not applicable to Java 8 
 
-The purpose of this small project is to offer a tool that replaces the above JVM values with only -Xmx2048m in Liferay Tomcat vanilla bundles, just with a single action.
+The purpose of this small project is to offer a tool that replaces the above JVM values with just `-Xmx2048m` in Liferay Tomcat vanilla bundles, just with a single action.
 
 ## How to run the tool ?
 
-1) If you are running the Liferay bundle on Linux or Mac OS, download [setenv-replacer.sh](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.sh), else, if you have a Windows OS, download [setenv-replacer.bat](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.bat)
+1) If you are running the Liferay bundle on Linux or Mac OS, download [setenv-replacer.sh](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.sh), else, if you have a Windows OS, download [setenv-replacer.vbs](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.vbs)
 
 2) Place the file in the Liferay home directory of your bundle
 
 3) Open a terminal (Linux) or command prompt (Windows)
 
-4) Run `/.setenv-replacer.sh` (Linux - MacOS) or `cscript setenv-replacer.bat` (Windows)
+4) Run `/.setenv-replacer.sh` (Linux - MacOS) or `cscript setenv-replacer.vbs` (Windows)
 
 5) Once the tool completes its job, a `Success !` message will be printed in the console
 
