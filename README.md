@@ -30,7 +30,7 @@ Use the tool at your own risk, as it overrides the file without any prompts
  4. Push your work back up to your fork
  5. [Submit a Pull request](https://help.github.com/articles/creating-a-pull-request/) so that your changes can be reviewed
 
-NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+Note: Pull requests commit messages have to adhere to these rules: [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
 
 ## Reporting bugs & Requesting Features
 
