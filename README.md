@@ -16,7 +16,7 @@ The purpose of this small project is to offer a tool that replaces the above JVM
 
 3) Open a terminal (Linux) or command prompt (Windows)
 
-4) Run `/.setenv-replacer.sh` (Linux) or `setenv-replacer.bat` (Windows)
+4) Run `/.setenv-replacer.sh` (Linux - MacOS) or `cscript setenv-replacer.bat` (Windows)
 
 5) Once the tool completes its job, a `Success !` message will be printed in the console
 
