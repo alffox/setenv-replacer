@@ -10,7 +10,7 @@ The purpose of this small project is to offer a tool that replaces the above JVM
 
 ## How to run the tool ?
 
-1) If you are running the Liferay bundle on Linux OS, download [setenv-replacer.sh](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.sh), else, if you have a Windows OS, download [setenv-replacer.bat](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.bat)
+1) If you are running the Liferay bundle on Linux or Mac OS, download [setenv-replacer.sh](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.sh), else, if you have a Windows OS, download [setenv-replacer.bat](https://github.com/alffox/setenv-replacer/blob/master/setenv-replacer.bat)
 
 2) Place the file in the Liferay home directory of your bundle
 
